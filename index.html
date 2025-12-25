@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOPMaster 2.0 — Operational Infrastructure</title>
+
+<style>
+:root{
+--bg:#0b0f1a;
+--panel:#111827;
+--panel2:#0f172a;
+--ink:#e5e7eb;
+--muted:#9ca3af;
+--accent:#3b82f6;
+--accent-soft:rgba(59,130,246,.15);
+--border:rgba(255,255,255,.08);
+--radius:22px;
+}
+
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+background:radial-gradient(1200px 600px at 20% -10%, #1e293b 0%, transparent 60%),
+           radial-gradient(1000px 600px at 90% 20%, #020617 0%, transparent 55%),
+           linear-gradient(180deg,#020617,#020617);
+color:var(--ink);
+line-height:1.6;
+overflow-x:hidden;
+}
+
+.wrap{max-width:1200px;margin:0 auto;padding:120px 28px}
+
+.hero{
+display:grid;
+grid-template-columns:1.2fr .8fr;
+gap:60px;
+align-items:center;
+}
+
+h1{
+font-size:64px;
+letter-spacing:-.04em;
+line-height:1.05;
+margin:0 0 24px;
+}
+
+.sub{
+color:var(--muted);
+max-width:640px;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:18px 32px;
+border-radius:16px;
+border:1px solid var(--border);
+color:white;
+text-decoration:none;
+font-weight:600;
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+box-shadow:0 40px 120px rgba(37,99,235,.35);
+}
+
+.panel{
+background:linear-gradient(180deg,var(--panel),var(--panel2));
+border:1px solid var(--border);
+border-radius:var(--radius);
+padding:36px;
+box-shadow:0 40px 120px rgba(0,0,0,.6);
+}
+
+.kpi{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:18px;
+margin-top:28px;
+}
+
+.kpi div{
+background:var(--accent-soft);
+border-radius:14px;
+padding:16px;
+font-weight:600;
+}
+
+.section{margin-top:180px}
+
+.section h2{
+font-size:36px;
+margin-bottom:16px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:32px;
+margin-top:48px;
+}
+
+.card{
+background:linear-gradient(180deg,var(--panel),#020617);
+border:1px solid var(--border);
+border-radius:var(--radius);
+padding:32px;
+box-shadow:0 30px 80px rgba(0,0,0,.55);
+}
+
+.card h3{
+margin-top:0;
+font-size:18px;
+}
+
+footer{
+margin-top:200px;
+border-top:1px solid var(--border);
+padding:40px 0;
+text-align:center;
+color:var(--muted);
+font-size:14px;
+}
+
+@media(max-width:900px){
+.hero{grid-template-columns:1fr}
+h1{font-size:44px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<section class="hero">
+<div>
+<h1>Operational Infrastructure.<br>Not Documents.</h1>
+<p class="sub">
+SOPMaster 2.0 generates governed, outcome‑driven SOPs that behave like £25k–£50k consulting deliverables — produced in minutes, deployable at scale.
+</p>
+<a class="btn" href="https://app.sopmaster.co.uk">Launch SOP Builder</a>
+</div>
+
+<div class="panel">
+<strong>Delivery Standard</strong>
+<div class="kpi">
+<div>Outcome‑Defined</div>
+<div>Verification Built‑In</div>
+<div>Controlled Procedures</div>
+<div>Enterprise Presentation</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>How SOPMaster 2.0 Works</h2>
+<div class="grid">
+<div class="card"><h3>Outcome First</h3><p>Every SOP starts with a measurable result. If success can’t be verified, the SOP is invalid.</p></div>
+<div class="card"><h3>Governed Control Blocks</h3><p>Procedures are structured as control stages, not task lists.</p></div>
+<div class="card"><h3>Executive‑Grade Output</h3><p>SOPs look enterprise‑ready before they are read.</p></div>
+<div class="card"><h3>Infinite Scale</h3><p>Deploy SOPs across hundreds of locations without rewriting.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Why Organisations Work With Us</h2>
+<div class="grid">
+<div class="card"><h3>Removes SOP Bottlenecks</h3><p>No more consultants, no more templates, no more delays.</p></div>
+<div class="card"><h3>Reduces Operational Risk</h3><p>Built‑in verification and escalation logic.</p></div>
+<div class="card"><h3>Consultant‑Grade Standard</h3><p>Every SOP matches £25k+ consulting quality.</p></div>
+<div class="card"><h3>Designed for Rollout</h3><p>HQ‑ready, location‑ready, audit‑ready.</p></div>
+</div>
+</section>
+
+<footer>
+© SOPMaster® — Outcome‑Driven Operational Infrastructure
+</footer>
+
+</div>
+</body>
+</html>
